@@ -1,0 +1,21 @@
+#README PROVA TECNICA DE RENAN 
+PARA RODAR O TESTE É NECESSÁRIO:
+1 - SERVIDOR WEB (APACHE) UTILIZEI O XAMPP.
+2 - BANCO DE DADOS MYSQL .
+3- RODAR SCRIPT PARA GERAR DUMP NO BANCO DE DADOS \testedot\resourses\Dump20190202.sql
+5 - CONFIGURAR O ARQUIVO \testedot\api_rest\config\app.php.
+258. 'username' => 'SEU_USER',
+259. 'password' => 'SUA_SENHA',
+260  'database' => 'provatecnica',
+6- GIT: CLONAR https://github.com/renantabaresmachado/provatecnica PARA PASTA DO SERVIDOR WEB
+7 - RODAR SERVIDOR WEB 
+8- ACESSAR URL DO SERVIDOR/teste
+9- ACESSAR ACESSAR LINK DOS EXERCICIOS
+10- PARA TESTAR TOTALMENTE O EXERCICIO 4  É NECESSÁRIO UMA FERRAMENTA PARA REALIZAR REQUISIÇÕES AOS SERVIÇOS REST (UTILIZEI POSTMAN):
+
+PATCH - URL DO SERVIDOR/test/api_rest/tarefas/edit/{ID}
+GET - URL DO SERVIDOR/test/api_rest/tarefas/view/{ID}
+POST - URL DO SERVIDOR/test/api_rest/tarefas/add
+DEL - URL DO SERVIDOR/test/api_rest/tarefas/delete/{ID}
+
+grato.
