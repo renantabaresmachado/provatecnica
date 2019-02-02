@@ -1,6 +1,6 @@
 
 <?php
-$con=  mysqli_connect("localhost", "root", "root", "testdot");
+$con=  mysqli_connect("localhost", "root", "root", "provatecnica");
 $select="Select * from tarefas Order By prioridade";
 $result=  mysqli_query($con, $select);
 $count=  mysqli_num_rows($result);
